@@ -6,12 +6,12 @@ const games = Game.map(
     {
         return(
             
-            <div class="bg-dark col-md-5 p-lg-5 mx-auto my-5" key={Game.id}>
+            <div className="bg-dark col-md-5 p-lg-5 mx-auto my-5" key={Game.id}>
                  
                 
                     <div className="card shadow-sm">
                         
-                        <img src={Game.image} alt={Game.game} />
+                        <img src={Game.image} alt={Game.game}/>
                         <div className="card-body">
                             <p className="card-text">{Game.description}</p>
                                 <small className="text-muted">Price: ${Game.price}</small>
